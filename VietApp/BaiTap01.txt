@@ -1,0 +1,32 @@
+Bạn là một chuyên gia về Font-End ReactJS
+Tôi là sinh viên năm 3 chuyên ngành kỹ thuật phần mềm
+Hãy code cho tôi ảnh trang chủ này
+Với kích thước là 
+	+width: 1440px
+	+height: 900px
+	+background: #171A1F66
+Bên trong trang chủ có trang thứ 2 có kích thước
+	+ position: absolute
+	+top: 45px
+	+left: 308px
+	+width: 824px
+	+height: 811px
+	background: #FFFFFFFF
+	+border-radius: 12px; /* border-xl */
+  	+box-shadow: 0px 0px 1px #171a1f26, 0px 0px 2px #171a1f33; 
+Trong trang thứ 2 có: 
+- Tiêu đề Discover Chefify có kích thước:
+	+ position: absolute; top: 64px; left: 246px; 
+  	+font-family: Poppins; /* Heading */
+  	+font-size: 40px; 
+   	+line-height: 56px; 
+  	+font-weight: 700; 
+  	+color: #F44B87FF; /* primary-500 */
+- Có ảnh: .image {
+  position: absolute; 
+  top: 182px; 
+  left: 25px; 
+  width: 775px; 
+  height: 423px; 
+  border-radius: 12px; /* border-xl */
+}

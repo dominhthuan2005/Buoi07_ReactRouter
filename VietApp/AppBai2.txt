@@ -1,0 +1,93 @@
+import React, { useState } from "react";
+import "./App.css";
+
+export default function App() {
+  const [showLogin, setShowLogin] = useState(false);
+
+  return (
+    <div className="main-container">
+      {/* Header */}
+      <header className="header">
+        <div className="logo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
+            alt="logo"
+            className="logo-img"
+          />
+          <span className="logo-text">Chefify</span>
+        </div>
+
+        <nav className="nav-links">
+          <a href="#">What to cook</a>
+          <a href="#">Recipes</a>
+          <a href="#">Ingredients</a>
+          <a href="#">Occasions</a>
+          <a href="#">About Us</a>
+        </nav>
+
+        <div className="actions">
+          <button className="btn login" onClick={() => setShowLogin(true)}>
+            Login
+          </button>
+          <button className="btn subscribe">Subscribe</button>
+        </div>
+      </header>
+
+      {/* Search */}
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="What would you like to cook?"
+          className="search-input"
+        />
+      </div>
+
+      {/* BIG IMAGE */}
+      <div className="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1498837167922-ddd27525d352"
+          alt="food"
+        />
+      </div>
+
+      {/* LOGIN MODAL */}
+      {showLogin && (
+  <div className="overlay">
+    <div className="login-wrapper">
+      
+      {/* LEFT SIDE */}
+      <div className="left-panel">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+          alt="food"
+          className="left-image"
+        />
+        <p className="left-text">
+          Embrace the art of cooking, where flavors come alive!
+        </p>
+      </div>
+
+      {/* RIGHT SIDE */}
+      <div className="right-panel">
+        <h1 className="login-title">Login</h1>
+
+        <p className="login-subtitle">
+          Enter your email to log in.
+        </p>
+
+        <input type="text" placeholder="Email" className="input" />
+        <input type="password" placeholder="Password" className="input" />
+
+        <button className="btn submit">Login</button>
+
+        <button className="close-btn" onClick={() => setShowLogin(false)}>
+          ✕
+        </button>
+      </div>
+
+    </div>
+  </div>
+)}
+      </div>
+  );
+}

@@ -1,0 +1,128 @@
+/* Import font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Trang chủ (overlay background) */
+.overlay {
+  width: 1440px;
+  height: 900px;
+  background: #171A1F66;
+  position: relative;
+}
+
+/* Trang thứ 2 (modal) */
+.modal {
+  position: absolute;
+  top: 45px;
+  left: 308px;
+  width: 824px;
+  height: 811px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0px 0px 1px #171a1f26, 0px 0px 2px #171a1f33;
+}
+
+/* Title */
+.title {
+  position: absolute;
+  top: 64px;
+  left: 246px;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #F44B87;
+}
+
+/* Image */
+.image {
+  position: absolute;
+  top: 182px;
+  left: 25px;
+  width: 775px;
+  height: 423px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Button Next */
+/* Button Next (updated) */
+.nextBtn {
+  position: absolute;
+  top: 671px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 362px;
+  height: 44px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+
+  color: #FFFFFF;
+  background: #F44B87;
+
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.nextBtn:hover {
+  background: #F0105E;
+}
+
+/* Pressed */
+.nextBtn:active {
+  background: #D20D52;
+  transform: translateX(-50%) scale(0.98);
+}
+
+/* Disabled */
+.nextBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Skip text */
+.skip {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #F44B87;
+  cursor: pointer;
+}
+
+/* Close button */
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+.text {
+  position: absolute; 
+  top: 136px; 
+  left: 187px; 
+  font-family: Manrope; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  color: #171A1FFF; /* neutral-900 */
+}

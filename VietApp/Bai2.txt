@@ -1,0 +1,80 @@
+Bạn là một chuyên gia về Font_End ReactJS
+Tôi là sinh viên năm 3 chuyên ngành kỹ thuật phần mềm
+Hãy viết code cho tui với nội dung như sau:
+- Tôi có 1 trang chính với:
+	+Kích thước:
+  	position: absolute; 
+  	top: 0px; 
+  	left: 0px; 
+  	width: 1440px; 
+  	height: 900px; 
+  	background: #171A1F66; /* neutral-900 */
+  	border-radius: 0px; 
+Có tên và kèm theo logo nhỏ : Chefify
+Có phần tìm kiếm bên trong có placeholder là: What would you like to cook?
+Gồm các cái link liên kết như nhau What to cook, REcipesa, Ingredients, Occasions, About Us
+Có 2 nút Login và Subscribe
+Ở dưới kèm theo một cái hình to như vậy
+- Trong trang chính 1 có trang nhỏ khi nhấn Login nó hiển thị ra á:
+	+Kích thước tổng: .container {
+  position: absolute; 
+  top: 138px; 
+  left: 151px; 
+  width: 1139px; 
+  height: 624px; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 12px; /* border-xl */
+  box-shadow: 0px 0px 1px #171a1f26, 0px 0px 2px #171a1f33; /* shadow-xs */
+}
+++ Gồm 
+  - khung bên trái có: Text: "Embrace the art of cooking, where flavors come alive!" .text {
+  position: absolute; 
+  top: 72px; 
+  left: 110px; 
+  width: 302px; 
+  height: 50px; 
+  font-family: Poppins; /* Heading */
+  font-size: 24px; 
+  line-height: 36px; 
+  font-weight: 700; 
+  color: #FFFFFFFF; /* white */
+}
++ Tấm ảnh bên trái với kích thước .image {
+  position: absolute; 
+  top: 1px; 
+  left: 0px; 
+  width: 501px; 
+  height: 624px; 
+  border-radius: 0px; 
+}
+- Khung bên phải có Khung .container {
+  position: absolute; 
+  top: 138px; 
+  left: 151px; 
+  width: 1139px; 
+  height: 624px; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 12px; /* border-xl */
+  box-shadow: 0px 0px 1px #171a1f26, 0px 0px 2px #171a1f33; /* shadow-xs */
+}
+Có nút Login bên Trên: (.text {
+  position: absolute; 
+  top: 24px; 
+  left: 533px; 
+  font-family: Poppins; /* Heading */
+  font-size: 32px; 
+  line-height: 48px; 
+  font-weight: 700; 
+  color: #171A1FFF; /* neutral-900 */
+})
+Có text: Enter your email to log in..text {
+  position: absolute; 
+  top: 101px; 
+  left: 533px; 
+  font-family: Manrope; /* Body */
+  font-size: 20px; 
+  line-height: 30px; 
+  font-weight: 400; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
